@@ -9,6 +9,13 @@ class Number
         return (factorial((number - 1)) * number);
     }
 
+    public int  power(int number, int coefficient)
+    {
+        if (coefficient == 1)
+            return (number);
+        return (power(number, coefficient - 1) * number);
+    }
+
     public int getNumber()
     {
         return (this.number);
@@ -23,10 +30,13 @@ class Number
     {
         Number  num;
         int     factorial;
+        int     power;
 
         num = new Number();
         num.setNumber(3);
         factorial = num.factorial(num.getNumber());
-        System.out.println("the factorial of " + num.getNumber() + " is = " + factorial);
+        power = num.power(num.getNumber(), 3);
+        System.out.println("the factorial of " + num.getNumber() + " is = " + factorial +"\n");
+        System.out.println(num.getNumber() + " power  2 = " + power +"\n");
     }
 }
