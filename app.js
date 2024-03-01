@@ -1,9 +1,15 @@
+/*
+	mes fonctions
+*/
+
+let	is_prime
+let display_result
 
 /*
 	verification si le nombre est premier
 */
 
-function	is_prime(number)
+is_prime = function	(number)
 {
 	if (number == 1 || number == 0)
 		return (false)
@@ -19,7 +25,7 @@ function	is_prime(number)
 	affichage du résultat
 */
 
-function	display_result(number)
+display_result = function	(number)
 {
 	is_prime(number) ? console.log(number + " is a prime number !\n") : console.log(number + " is not a prime number!\n")
 }
