@@ -11,5 +11,5 @@ verifie si un nombre est premier | permet de calculer une factorielle | une clas
 - installer l'intérpréteur [**php**](https://www.php.net/downloads.php) (pour php)
 
 ### DOC
--[_java_](https://www.oracle.com/java/technologies/javase-jdk17-doc-downloads.html)
--[_php_](https://www.php.net/download-docs.php)
+- [_java_](https://www.oracle.com/java/technologies/javase-jdk17-doc-downloads.html)
+- [_php_](https://www.php.net/download-docs.php)
