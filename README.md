@@ -7,7 +7,7 @@ verifie si un nombre est premier | permet de calculer une factorielle | une clas
 ### vous pouvez executer les scripts avec :
 
 - [**Node js**](https://nodejs.org/en) ou utiliser un **interpréteur** en ligne (pour javascript)
-- installer un [**JDK SE**](https://www.oracle.com/java/technologies/downloads/) (pour java) 
+- installer un [**JDK**](https://www.oracle.com/java/technologies/downloads/) (pour java) 
 - installer l'intérpréteur [**php**](https://www.php.net/downloads.php) (pour php)
 
 ### DOC
